@@ -14,9 +14,12 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.container {
-    width: 50%;
+.grid {
+    width: 80%;
     margin: 5% auto;
+}
+.container {
+    width: 100%;
     padding: 3% 2%;
     border: 2px solid;
     border-radius: 5px;
