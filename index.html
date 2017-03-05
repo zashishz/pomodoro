@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro</title>
+    <!--<link rel="stylesheet" href="css/reset.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/pomodoro.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">Pomodoro Clock</div>
+        <div class="main-buttons">
+            <div class="interval-grp">
+                <span id="interval-val">01</span>
+                <div class="up-down">
+                    <div class="up interval-up">+</div>
+                    <div class="down interval-down">-</div>
+                </div>
+                <span class="label">Set Interval</span>
+            </div><!-- 
+                Timers
+            --><div class="timer-grp">
+                <span id="timer-val">25</span>
+                <div class="up-down">
+                    <div class="up timer-up">+</div>
+                    <div class="down timer-down">-</div>
+                </div>
+                <span class="label">Set timer</span>
+            </div>
+        </div>
+        <div class="pomodoro">
+            <div id="timer">
+                <span id="min">25</span>:<!-- 
+
+                --><span id="sec">00</span>
+            </div>
+            <div class="flow"></div>
+        </div>
+        <div class="reset"></div>
+    </div>
+    <script src="js/pomodoro.js"></script>
+</body>
+
+</html>
